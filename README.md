@@ -46,7 +46,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 2. Scss Intellisense
 
 1. Live Sass/Scss Compiler - Watch Sass 클릭해서 사용
-2. Live 
+2. Live Server - Go Live 클릭해서 사용
+3. Live Preview - html 한정인 듯..
 
 1. ZipFS - zip 아카이브 yarn dlx @yarnpkg/sdks vscode
 
@@ -56,6 +57,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
     * node가 변경된다면 아마 prettier eslint 버젼도 관리해줘야 하는 듯 합니다.
 2. vue 등 빨간줄 에러 ==> {yarn dlx @yarnpkg/sdks vscode} 명령어 입력 후 vue 파일의 takeover sdk 변경
     * dlx는 "directly execute"의 약자, 결국 @yarnpkg/sdks 패키지에 있는 vscode 스크립트를 실행하는 것
-3. ts 도 마찬가지로 파일의 sdk 변경
-4. tsconfig.json 안 읽히는 것은 아마 2번에서 해결될 수도 있고, 1-1에서 해결될 수 있음.
+3. ts 도 마찬가지로 파일의 sdk 변경, tsconfig.json 잡고 있나 확인.
+4. tsconfig.json 안 읽히는 것은 아마 2번에서 해결될 수도 있고, 1-1에서 해결될 수 있음. 안되면 vs코드 다시키셈
+5. 별거 아니지만 LF, CRLF 등 opensetting 에서 file:eol 로 설정 가능 -> /n : LF, /r/n : CRLF 줄바꿈 문자열 차이!
 ## 임시지만 옆에 메뉴창 만들어 보는 것도 좋을 듯 
