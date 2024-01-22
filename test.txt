@@ -1,6 +1,3 @@
-<<<<<<< HEAD
+
 'hi donghee!!'
-=======
-'hi donghee'
-'!!yes im donghee'
->>>>>>> main
+
